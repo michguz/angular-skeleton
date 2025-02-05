@@ -1,12 +1,12 @@
 
 .nav {
-    padding: 0em 1em;
+    padding: 0em 100em;
     background-color: #1a1a1a;
   }
   .navbar-brand {
     color: white;
   }
   .navbar-brand:hover {
-    color: #535bf2;
+    color: #f2a053;
   }
   
