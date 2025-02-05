@@ -1,6 +1,8 @@
 import { bootstrapApplication } from '@angular/platform-browser';
 import { provideRouter } from '@angular/router';
 import { AppComponent } from './app/app.component';
+import routeConfig from './app/routes'
+
 
 // export class App {
 //   name = 'Angular';
@@ -8,6 +10,6 @@ import { AppComponent } from './app/app.component';
 
 bootstrapApplication(AppComponent, {
   providers: [
-    provideRouter([])
+    provideRouter(routeConfig)
   ]
 });

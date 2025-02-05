@@ -1,7 +1,13 @@
 import { Routes } from '@angular/router';
-import { AppComponent } from './app.component'
+import { TextEditorComponent } from './text-editor/text-editor.component'
 
-const routeConfig: Routes = [];
+const routeConfig: Routes = [
+    {
+        path: '',
+        component: TextEditorComponent,
+        title: 'Text Editor'
+    }
+];
 
 export default routeConfig;
 
