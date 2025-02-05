@@ -1,11 +1,12 @@
 import { bootstrapApplication } from '@angular/platform-browser';
 import { provideRouter } from '@angular/router';
+import { AppComponent } from './app/app.component';
 
-export class App {
-  name = 'Angular';
-}
+// export class App {
+//   name = 'Angular';
+// }
 
-bootstrapApplication(App, {
+bootstrapApplication(AppComponent, {
   providers: [
     provideRouter([])
   ]
