@@ -1,0 +1,12 @@
+
+
+
+
+
+Angular CLI
+
+> ng generate component <name> 
+> ng g c <name>
+
+> ng generate service <name>
+> ng g s <name>k 
