@@ -1,13 +1,12 @@
 import { bootstrapApplication } from '@angular/platform-browser';
-import { provideRouter } from '@angular/router';
 import { AppComponent } from './app/app.component';
+import { provideRouter } from '@angular/router';
 
-// export class App {
-//   name = 'Angular';
-// }
+import routeConfig from './app/routes';
+
 
 bootstrapApplication(AppComponent, {
   providers: [
-    provideRouter([])
+    provideRouter(routeConfig)
   ]
-});
+}).catch(err => console.error(err));
