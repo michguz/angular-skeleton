@@ -1,15 +1,13 @@
 body {
   margin: auto;
+  text-align: center;
   /* display: flex; */
   place-items: top;
   min-width: 320px;
   max-width: 1200px;
   min-height: 100vh;
   background-color: rgb(224, 224, 224);
-}
-
-div {
-  padding: 10pt;
+  
 }
 
 a {
@@ -55,6 +53,7 @@ button:focus-visible {
 
 .navbar {
   padding: 0em 1em;
+  margin: 10pt;
   background-color: #1a1a1a;
 }
 .navbar-brand {
