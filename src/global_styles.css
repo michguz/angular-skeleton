@@ -7,7 +7,7 @@ body {
   max-width: 1200px;
   min-height: 100vh;
   background-color: rgb(224, 224, 224);
-  
+  padding: 20pt;
 }
 
 a {
@@ -34,6 +34,7 @@ button {
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
+  color:rgb(224, 224, 224);
   font-family: inherit;
   background-color: #1a1a1a;
   cursor: pointer;
@@ -53,7 +54,6 @@ button:focus-visible {
 
 .navbar {
   padding: 0em 1em;
-  margin: 10pt;
   background-color: #1a1a1a;
 }
 .navbar-brand {
