@@ -32,10 +32,14 @@
             "outputPath": "dist/demo",
             "polyfills": ["zone.js"],
             "scripts": [
-              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"            ],
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+              "node_modules/tinymce/tinymce.min.js"
+            ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "node_modules/bootstrap-icons/font/bootstrap-icons.css",
+              "node_modules/tinymce/skins/ui/oxide/skin.min.css",
+              "node_modules/tinymce/skins/content/default/content.min.css",
               "src/global_styles.css"],
             "tsConfig": "tsconfig.app.json"
           }
