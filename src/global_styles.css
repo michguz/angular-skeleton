@@ -62,3 +62,7 @@ button:focus-visible {
 .navbar-brand:hover {
   color: #f25353;
 }
+
+.dropdown-menu {
+  color: red !important;
+}
