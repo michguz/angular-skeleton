@@ -26,9 +26,7 @@
             }
           },
           "options": {
-            "assets": [
-              { "glob": "**/*", "input": "node_modules/tinymce", "output": "/tinymce/" }
-            ],
+            "assets": [],
             "index": "src/index.html",
             "browser": "src/main.ts",
             "outputPath": "dist/demo",
