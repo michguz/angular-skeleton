@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { CountService } from '../count.service';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
-  count = 0
-
-  increment() {
-    this.count=this.count+1
-  }
+  countService = inject(CountService)
 }
